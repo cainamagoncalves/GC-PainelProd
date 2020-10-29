@@ -1,0 +1,23 @@
+{% extends "layout.jinja2" %}
+
+{% block content %}
+    <h1 class="display-4">FASES DA PRODUÇÃO</h1>
+    <img src='./static/img/load.gif'/>
+    <br/><br/>
+    <h4>Selecione um setor da produção:</h4>
+    <div class="btn-group" role="group">
+      <a href="/f/pcp" type="button" class="btn btn-secondary">PCP</a>
+      <a href="/f/corte" type="button" class="btn btn-secondary">Corte</a>
+      <a href="/f/lapidacao" type="button" class="btn btn-secondary">Lapidação</a>
+      <a href="/f/usinagem" type="button" class="btn btn-secondary">Usinagem</a>
+      <a href="/f/marcacao" type="button" class="btn btn-secondary">Marcação</a>
+      <a href="/f/furacao" type="button" class="btn btn-secondary">Furação</a>
+      <a href="/f/lavadora" type="button" class="btn btn-secondary">Lavadora</a>
+      <a href="/f/pforno" type="button" class="btn btn-secondary">Pré-Forno</a>
+      <a href="/f/tempera" type="button" class="btn btn-secondary">Têmpera</a>
+      <a href="/f/montagem" type="button" class="btn btn-secondary">Montagem</a>
+      <a href="/f/embalagem" type="button" class="btn btn-secondary">Embalagem</a>
+      <a href="/f/pexpedicao" type="button" class="btn btn-secondary">Pré-Expedição</a>
+      <a href="/f/expedicao" type="button" class="btn btn-secondary">Expedição</a>
+    </div>
+{% endblock %}

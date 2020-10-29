@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.ico') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
+  <title>{{ title }}</title>
+</head>
+
+<body class="{{template}}">
+  <nav class="navbar navbar-expand-lg navbar-static-top" style="background-color: #303030;">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">
+          <img alt="Linde Vidros" src="static/img/cli_logo.png">
+        </a>
+      </div>
+      <div class="container-fluid">
+        <div class="navbar-brand"><H3>Painel de acompanhamento de produção - {fase atual}</H3></div>
+        <!-- DROPDOWN -->
+        <div class="btn-group dropleft">
+          <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Fases
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">PCP</a>
+            <a class="dropdown-item" href="#">Corte</a>
+            <a class="dropdown-item" href="#">Lapidação</a>
+            <a class="dropdown-item" href="#">Usinagem</a>
+            <a class="dropdown-item" href="#">Marcação</a>
+            <a class="dropdown-item" href="#">Furação</a>
+            <a class="dropdown-item" href="#">Lavadora</a>
+            <a class="dropdown-item" href="#">Pré-Forno</a>
+            <a class="dropdown-item" href="#">Têmpera</a>
+            <a class="dropdown-item" href="#">Montagem</a>
+            <a class="dropdown-item" href="#">Embalagem</a>
+            <a class="dropdown-item" href="#">Pré-Expedição</a>
+            <a class="dropdown-item" href="#">Expedição</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid" style="margin-top: 25px">
+	  {% block content %}{% endblock %}
+  </div>
+</body>
+
+</html>

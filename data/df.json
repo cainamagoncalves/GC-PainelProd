@@ -1,0 +1,78 @@
+{
+    "TURNO": {
+        "0": {
+            "TURNO": "1º TURNO",
+            "PRODUZIDO": 1120,
+            "PROD_MEDIA_H": 0,
+            "PROD_PORCENT": 93,
+            "SCRAP": 40,
+            "SCRAP_MEDIA_H": 0,
+            "SCRAP_PORCENT": 3.6,
+            "HORAS_PARADAS": "01:25:00",
+            "PROD_POR_DIA": {}
+        },
+        "1": {
+            "TURNO": "2º TURNO",
+            "PRODUZIDO": 800,
+            "PROD_MEDIA_H": 133,
+            "PROD_PORCENT": 67,
+            "SCRAP": 31.2,
+            "SCRAP_MEDIA_H": 2,
+            "SCRAP_PORCENT": 3.9,
+            "HORAS_PARADAS": "00:45:00",
+            "PROD_POR_DIA": {}
+        },
+        "2": {
+            "TURNO": "3º TURNO",
+            "PRODUZIDO": 610,
+            "PROD_MEDIA_H": 0,
+            "PROD_PORCENT": 81,
+            "SCRAP": 12,
+            "SCRAP_MEDIA_H": 0,
+            "SCRAP_PORCENT": 2,
+            "HORAS_PARADAS": "00:32:00",
+            "PROD_POR_DIA": {}
+        }
+    },
+    "PARAMETROS": {
+        "T1": "06:00",
+        "T2": "14:00",
+        "T3": "22:00",
+        "P_PROD_OK": 85,
+        "P_PROD_MEDIO": 70,
+        "P_SCRAP_MAX": 2,
+        "PROD_META_H": 150,
+        "PROD_META_D": 1200,
+        "SCRAP_META_H": 3.75,
+        "SCRAP_META_D": 30,
+        "ATUALIZA": 10,
+        "VERSAO": "0.9.1",
+        "ACESSO": {
+            "0": {
+                "IP": "192.168.0.115",
+                "FASES": [
+                    5,
+                    10,
+                    13,
+                    15,
+                    26,
+                    28,
+                    35,
+                    40,
+                    48,
+                    51,
+                    80,
+                    82,
+                    84
+                ]
+            },
+            "1": {
+                "IP": "192.168.0.31",
+                "FASES": [
+                    40,
+                    48
+                ]
+            }
+        }
+    }
+}

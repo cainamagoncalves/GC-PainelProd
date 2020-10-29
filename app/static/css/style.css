@@ -1,0 +1,71 @@
+/*
+fas fa-arrow-alt-circle-up
+fas fa-arrow-alt-circle-right
+fas fa-arrow-alt-circle-down
+fas fa-check-circle
+fas fa-times-circle
+*/
+
+body {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    overflow-x: hidden;
+}
+
+a,
+a:hover {
+    color: white;
+}
+
+H1 {
+    font-weight: 1000;
+    color: red;
+    text-shadow: 0 0 0.2em black
+}
+
+.btn:focus {
+    box-shadow: none!important;
+    outline: 0;
+}
+
+.nav {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    font-size: 12px;
+    padding: 0 0 0 20px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 12%;
+}
+
+.subTitle {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10%;
+}
+
+.fa-arrow-alt-circle-up,
+.fa-check-circle {
+    color: #5cb85c;
+}
+
+.fa-arrow-alt-circle-right {
+    color: #f0ad4e;
+}
+
+.fa-arrow-alt-circle-down,
+.fa-times-circle {
+    color: #d9534f;
+}
