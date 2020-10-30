@@ -24,6 +24,10 @@ H1 {
     text-shadow: 0 0 0.2em black
 }
 
+.center-block {
+    padding-inline-end: 120px;
+}
+
 .btn:focus {
     box-shadow: none!important;
     outline: 0;
